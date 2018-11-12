@@ -8,7 +8,7 @@ function connect(callback) {
     var MongoClient = mongodb.MongoClient;
 
 // Connection URL. This is where your mongodb server is running.
-    var url = 'mongodb://localhost:27017/' + DATA_BASE_NAME;
+    var url = 'mongodb://172.30.33.82:27017/' + DATA_BASE_NAME;
 
 // Use connect method to connect to the Server
     MongoClient.connect(url, function (err, db) {

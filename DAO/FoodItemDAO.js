@@ -1,7 +1,7 @@
 
 var DAO = require('./DAO')
 const DATA_BASE_NAME = "db"
-const DATA_BASE_URL = "mongodb://localhost:27017/"
+const DATA_BASE_URL = "mongodb://172.30.33.82:27017/"
 
 const COLLECTION_NAME = "FoodItem"
 const COLLECTION_CATEGORY = "Category"
